@@ -1,0 +1,100 @@
+
+body{
+   background-image: url(images/bg-pattern-top.svg),
+   url(images/bg-pattern-bottom.svg) ;
+   background-position: left top, right bottom;
+   background-repeat: no-repeat, repeat;
+   font-family: 'Segoe UI';
+   background-color:hsl(185, 75%, 39%) ;
+}
+section{
+  width: 270px;
+  height: 320px;
+   
+   background:  #fff;
+   margin: 100px auto;
+   border: 1px solid hsl(185, 75%, 39%);
+   border-radius: 15px;
+
+}
+.omo{
+    max-width: 100%;
+    border-top-left-radius:15px;
+    border-top-right-radius: 15px;
+}
+.boy{
+    transform: translateY(-5rem);
+    max-width: 100;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ border: 5px solid white;
+ border-radius: 50%;
+ z-index: 1;
+}
+
+/* .no{
+    transform: translateY(-5rem);
+    display: inline-block;
+    text-align: center;
+    
+} */
+.sabi{
+    display: flex;
+    text-align: center;
+    transform: translateY(-5rem);
+}
+#v{
+    margin-right: 1rem;
+    margin-left: 1.5rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+.london{
+    text-align: center;
+    transform: translateY(-6rem);
+    color: rgb(172, 187, 201);
+}
+
+hr{
+    transform: translateY(-7rem);
+}
+
+.life{
+  word-spacing: 3rem;
+  transform: translateY(-6rem);
+  font-weight: 700;
+   
+}
+.a{
+    margin-left: 1.2rem;
+}
+
+.way{
+    margin-left: 1rem;
+}
+
+.f{
+    margin-left: 0.4rem;
+}
+.socials{
+    display: flex;
+    transform: translateY(-7rem);
+    gap: 4rem;
+    font-weight: 1000;
+    
+}
+
+.follows{
+    display: flex;
+    transform: translateY(-9rem);
+    gap: 2rem;
+    font-size: 15px;
+}
+.likes{
+    margin-left: 0.35rem;
+}
+.abeg{
+    margin-left: 2rem;
+}
